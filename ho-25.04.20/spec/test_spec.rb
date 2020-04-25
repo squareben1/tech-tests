@@ -29,5 +29,5 @@ describe Test do
     it 'checking second full arr where digits go down after 1st 2' do
       expect(subject.maxDifference([7, 9, 5, 6, 3, 2])).to eq 2
     end
-  end 
+  end
 end
