@@ -15,7 +15,6 @@ class Test
   end
 
   def breakPalindrome(str)
-    str_arr = str.split('')
     arr = str.split('')
 
     arr.each do |char|
