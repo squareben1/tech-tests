@@ -27,7 +27,7 @@ class Test
         end
       end
     end
-    
+
     if arr.uniq.length == 1
       'IMPOSSIBLE'
     else
