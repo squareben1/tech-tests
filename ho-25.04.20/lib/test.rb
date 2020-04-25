@@ -17,7 +17,7 @@ class Test
   def breakPalindrome(str)
     str_arr = str.split('')
     arr = str.split('')
-    
+
     arr.each do |char|
       if char != 'a'
         arr[arr.find_index(char)] = 'a'
