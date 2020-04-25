@@ -26,12 +26,14 @@ class Test
     end
     uniq_check(arr)
   end
-end
 
-def uniq_check(arr)
-  if arr.uniq.length == 1
-    'IMPOSSIBLE'
-  else
-    arr.join('')
+  def uniq_check(arr)
+    if arr.uniq.length == 1
+      'IMPOSSIBLE'
+    else
+      arr.join('')
+    end
   end
 end
+
+
